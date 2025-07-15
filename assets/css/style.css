@@ -26,7 +26,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #ffffff;
+    box-shadow: 0 2px 2px #3f51b5;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -42,6 +42,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(242, 235, 222);
+    
 }
 
 #menu {
@@ -138,4 +139,11 @@ footer {
         display: none;
     }
 
+}
+
+/* Large devices (laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
 }
