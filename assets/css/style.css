@@ -91,10 +91,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 95px;
+}
+
+/* Gym section */
+#gym {
+    height: 1400px;
+    width: 100%;
+    background: url(../images/gym1.png) no-repeat center center/cover;
 }
 
 /* Footer */ 
