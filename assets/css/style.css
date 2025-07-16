@@ -262,6 +262,19 @@ h2, p {
     color: #ffffff;
 }
 
+
+.submit-page {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: #1f2833;
+    color: #ffffff;
+}
+
+.submit-page-body header, .submit-page-body footer {
+    display: none;
+}
+
 /* Media query: 377px and up */
 @media screen and (min-width: 377px) {
     main {
