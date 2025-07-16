@@ -107,7 +107,7 @@ main {
     padding: 2.5rem;
     position: absolute;
     text-align: center;
-    top: 73%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -122,6 +122,7 @@ main {
     text-transform: uppercase;
     
 }
+
 
 /* Footer */ 
 #social-networks {
