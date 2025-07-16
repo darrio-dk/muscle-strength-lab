@@ -160,6 +160,25 @@ main {
     color: #333;
 }
 
+.contact-form label {
+    margin-top: 1rem;
+    display: block;
+    font-weight: 600;
+    color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+
+
 /* Footer */ 
 #social-networks {
     background-color: #1f2833;
