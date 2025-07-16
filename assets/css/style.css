@@ -18,6 +18,10 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+body.about-page main {
+    background-color: #1f2833;
+}
+
 
 /* Header */
 header {
@@ -123,7 +127,7 @@ main {
     
 }
 
-/* GalleryPpage */
+/* Gallery Page */
 
 #photos img {
     width: 100%;
@@ -136,24 +140,28 @@ main {
 
 /* About Page */
 
+
 .text-box > h2 {
     text-transform: uppercase;
 }
 
 h2, p {
     margin: 0;
-    padding: 0;
+    padding: 15px;
     box-sizing: border-box;
     font-size: 22px;
+    color: #fff;
 }
 
-div img {
+.wrapper img {
     max-width: 320px;
     max-height: 240px;
     float: left;
     border: 3px solid #fff;
     border-radius: 10px;
     margin-right: 30px;
+    margin-top: 12px;
+    
     
 }
 
@@ -167,6 +175,11 @@ div img {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+
+.text-box {
+    color: #f2ebde;
 }
 
 /* Signup Form */
@@ -255,6 +268,9 @@ div img {
         margin-top: 47px;
   }
 
+  #about {
+    margin-top: 60px;
+  }
 }
 
 /* Media query: large or landscape (576px and up) */
