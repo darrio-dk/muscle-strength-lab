@@ -134,6 +134,16 @@ main {
     line-height: 0;
 }
 
+/* Signup Form */
+
+#signup {
+    background-color: #f7f8fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 /* Footer */ 
 #social-networks {
     background-color: #1f2833;
