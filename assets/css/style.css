@@ -136,6 +136,19 @@ main {
 
 /* About Page */
 
+h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+div img {
+    max-width: 320px;
+    max-height: 240px;
+    float: left;
+    
+}
 
 /* Signup Form */
 
